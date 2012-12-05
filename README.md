@@ -32,5 +32,5 @@ And in case of exception:
 
 In both cases HTTP response will also have `Content-Type` header set:
 ```HEADER
-Content-Type:application/json;
+Content-Type: application/json
 ```

@@ -1,10 +1,8 @@
-Oggetto_Ajax
-====
+# Oggetto_Ajax
 
 Magento helper module for sending AJAX-responses
 
-Usage
-----
+## Usage
 
 In the controller action which should respond to AJAX request write something like:
 
@@ -34,3 +32,17 @@ In both cases HTTP response will also have `Content-Type` header set:
 ```HEADER
 Content-Type: application/json
 ```
+
+### Useful helper methods
+
+There are two useful methods which you may like to use:
+
+```php
+Mage::helper('ajax')->sendError($message);
+```
+
+```php
+Mage::helper('ajax')->sendSuccess($data);
+```
+
+These methods will automatically build ajax-response object and send it to HTTP response (just like described above).

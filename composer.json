@@ -18,6 +18,9 @@
         "magento-hackathon/magento-composer-installer": "*"
     },
     "extra": {
-        "package-xml": "package.xml"
+        "map": [
+            ["app/code/community/Oggetto/Ajax", "app/code/community/Oggetto/Ajax"],
+            ["app/etc/modules/Oggetto_Ajax.xml", "app/etc/modules/Oggetto_Ajax.xml"]
+        ]
     }
 }

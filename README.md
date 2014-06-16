@@ -37,7 +37,7 @@ Optionally you can add
     }
 ```
 
-There are [more](https://github.com/magento-hackathon/magento-composer-installer/blob/master/README.md) information
+There is [more](https://github.com/magento-hackathon/magento-composer-installer/blob/master/README.md) information
 about composer installer for magento
 
 ## Usage

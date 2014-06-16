@@ -10,35 +10,32 @@ Update your `composer.json` like this
     "require": {
         ...
         "magento-hackathon/magento-composer-installer":"*",
-        "oggetto/ajax-module": "1.*"
+        "oggettoweb/ajax": "1.*"
         ...
     },
     "repositories": [
     ...
         {
             "type": "vcs",
-            "url": "https://github.com/magento-hackathon/magento-composer-installer"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/OggettoWeb/ajax"
         }
     ],
     ...
+    "extra":{
+        "magento-root-dir": ".",
+    }
 ```
 
 Optionally you can add
 
 ```JSON
     "extra":{
-        "magento-root-dir": "./",
         "magento-deploystrategy": "copy",
         "auto-append-gitignore": true
     }
 ```
 
-There is [more](https://github.com/magento-hackathon/magento-composer-installer/blob/master/README.md) information
-about composer installer for magento
+See more information about composer installer for magento at [github repository](https://github.com/magento-hackathon/magento-composer-installer/blob/master/README.md).
 
 ## Usage
 

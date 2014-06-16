@@ -1,8 +1,8 @@
 {
-    "name": "oggetto/ajax-module",
+    "name": "oggettoweb/ajax",
     "type": "magento-module",
     "license": "OSL-3.0",
-    "description": "Oggetto_Ajax module for magento",
+    "description": "Oggetto Ajax module for magento",
     "authors":[
         {
             "name":"Dan Kocherga",

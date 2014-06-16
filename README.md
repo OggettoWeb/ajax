@@ -9,7 +9,6 @@ Update your `composer.json` like this
 ```JSON
     "require": {
         ...
-        "magento-hackathon/magento-composer-installer":"*",
         "oggettoweb/ajax": "1.*"
         ...
     },

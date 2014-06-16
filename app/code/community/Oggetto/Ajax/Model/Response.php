@@ -29,6 +29,9 @@
  * @package    Oggetto_Ajax
  * @subpackage Model
  * @author     Dan Kocherga <dan@oggettoweb.com>
+ *
+ * @method Oggetto_Ajax_Model_Response setStatus($status)
+ * @method Oggetto_Ajax_Model_Response setMessage($message)
  */
 class Oggetto_Ajax_Model_Response extends Varien_Object
 {
@@ -48,9 +51,9 @@ class Oggetto_Ajax_Model_Response extends Varien_Object
     const REDIRECT = 'redirect';
 
     /**
-     * Set response as successfull
+     * Set response as successful
      *
-     * @return Oggetto_Ajaxcart_Model_Response
+     * @return Oggetto_Ajax_Model_Response
      */
     public function success()
     {
@@ -60,7 +63,7 @@ class Oggetto_Ajax_Model_Response extends Varien_Object
     /**
      * Set response as error
      *
-     * @return Oggetto_Ajaxcart_Model_Response
+     * @return Oggetto_Ajax_Model_Response
      */
     public function error()
     {
@@ -70,7 +73,7 @@ class Oggetto_Ajax_Model_Response extends Varien_Object
     /**
      * Set response as redirect
      *
-     * @return Oggetto_Ajaxcart_Model_Response
+     * @return Oggetto_Ajax_Model_Response
      */
     public function redirect()
     {

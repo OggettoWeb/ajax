@@ -1,0 +1,26 @@
+{
+    "name": "oggetto/ajax-module",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "Oggetto_Ajax module for magento",
+    "authors":[
+        {
+            "name":"Dan Kocherga",
+            "email":"dan@oggettoweb.com"
+        },
+        {
+            "name":"Vladimir Fishchenko",
+            "email":"fishchenko@oggettoweb.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            ["app/code/community/Oggetto/Ajax", "app/code/community/Oggetto/Ajax"],
+            ["app/etc/modules/Oggetto_Ajax.xml", "app/etc/modules/Oggetto_Ajax.xml"]
+        ]
+    }
+}
